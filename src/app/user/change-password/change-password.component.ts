@@ -67,7 +67,7 @@ export class ChangePasswordComponent implements OnInit {
           }
         },
         (err)=>{
-          this.toastr.error("Some error occured");
+          this.toastr.error("Password entered is not valid");
         });
 
     }//End condition
