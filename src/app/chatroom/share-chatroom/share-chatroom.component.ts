@@ -38,7 +38,7 @@ export class ShareChatroomComponent implements OnInit {
   public chatRoomId: any;
   public retrivedRoomDetails: { 'chatRoomId': any; 'chatRoomTitle': any; 'chatRoomLink': any; 'userName': any; };
   public email: any;
-  public baseUrlApplication = 'http://localhost:4200';
+  public baseUrlApplication = 'http://localhost:3000';
 
   constructor(private _route: ActivatedRoute, public socketService: SocketService, public appService: AppService, public router: Router, private toastr: ToastrService) {
 

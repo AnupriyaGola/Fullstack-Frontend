@@ -374,7 +374,7 @@
   }
   
   .me {
-    color: #94C2ED;
+    color:#86BB71;
   }
   
   .warning {
@@ -398,7 +398,7 @@
 
 /*navbar style*/
 .navbar-custom {
-  background-color:#8DE4AF;
+  background-color:rgb(84, 171, 211);
  
 }
 
@@ -410,13 +410,14 @@
 font-family:garamond;
 font-weight:bold;
 
+
 }
 /*navbar -end*/
 /*main body*/
 /*chat section*/
 .img-adjust{
-width:10vmin;
-height:10vmin;
+width:15vmin;
+height:8vmin;
 }
 @media only screen and (max-width:1020px){
   .img-adjust{
@@ -458,7 +459,7 @@ font-size:16px;
 cursor:pointer;
 }
 #card-design:hover{
-background-color:#E7717D;
+background-color:rgb(183, 210, 235);
 }
 
 /*profile setting*/
@@ -496,5 +497,5 @@ margin-bottom:4vmin;
 }
 
 .border{
-    box-shadow: 0 4px 8px 0 #4ABDAC, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgb(79, 165, 187), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
